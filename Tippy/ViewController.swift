@@ -61,8 +61,8 @@ class ViewController: UIViewController {
         self.tAnimation.alpha = 0
         self.iAnimation.alpha = 0
         self.pAnimation.alpha = 0
-        
     }
+    
     //Animation for T I P
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -73,6 +73,7 @@ class ViewController: UIViewController {
             self.view.layoutIfNeeded()
         }, completion: nil)
     }
+    
     //Save current tip persentage
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

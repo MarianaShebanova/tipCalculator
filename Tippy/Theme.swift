@@ -47,8 +47,7 @@ struct ThemeManager {
         return Theme(rawValue: theme)!
     }
     
-    static func applyTheme(theme: Theme) {
-        
+    static func applyTheme(theme: Theme) {        
         UIApplication.shared.delegate?.window??.tintColor = theme.mainColor
         UINavigationBar.appearance().barStyle = theme.barStyle
         UITabBar.appearance().barStyle = theme.barStyle

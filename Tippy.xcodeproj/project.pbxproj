@@ -16,6 +16,8 @@
 		5678B8171E6B541200EF9BCE /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678B8161E6B541200EF9BCE /* TippyUITests.swift */; };
 		5678B8251E6B6ED900EF9BCE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678B8241E6B6ED900EF9BCE /* SettingsViewController.swift */; };
 		5678B82B1E6D2F5B00EF9BCE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678B82A1E6D2F5B00EF9BCE /* Theme.swift */; };
+		5678B8331E6D379500EF9BCE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5678B82E1E6D379500EF9BCE /* README.md */; };
+		5678B8341E6D379500EF9BCE /* tipCalculator_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5678B82F1E6D379500EF9BCE /* tipCalculator_1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5678B8181E6B541200EF9BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5678B8241E6B6ED900EF9BCE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5678B82A1E6D2F5B00EF9BCE /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5678B82E1E6D379500EF9BCE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5678B82F1E6D379500EF9BCE /* tipCalculator_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tipCalculator_1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		5678B7EA1E6B541100EF9BCE = {
 			isa = PBXGroup;
 			children = (
+				5678B82E1E6D379500EF9BCE /* README.md */,
+				5678B82F1E6D379500EF9BCE /* tipCalculator_1.gif */,
 				5678B7F51E6B541100EF9BCE /* Tippy */,
 				5678B80A1E6B541200EF9BCE /* TippyTests */,
 				5678B8151E6B541200EF9BCE /* TippyUITests */,
@@ -242,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5678B8011E6B541100EF9BCE /* LaunchScreen.storyboard in Resources */,
+				5678B8341E6D379500EF9BCE /* tipCalculator_1.gif in Resources */,
 				5678B7FE1E6B541100EF9BCE /* Assets.xcassets in Resources */,
 				5678B7FC1E6B541100EF9BCE /* Main.storyboard in Resources */,
 			);
@@ -270,6 +277,7 @@
 			files = (
 				5678B7F91E6B541100EF9BCE /* ViewController.swift in Sources */,
 				5678B82B1E6D2F5B00EF9BCE /* Theme.swift in Sources */,
+				5678B8331E6D379500EF9BCE /* README.md in Sources */,
 				5678B7F71E6B541100EF9BCE /* AppDelegate.swift in Sources */,
 				5678B8251E6B6ED900EF9BCE /* SettingsViewController.swift in Sources */,
 			);
