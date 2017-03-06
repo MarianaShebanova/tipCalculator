@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         let intValue = defaults.integer(forKey: "default_tip_persentage_index")
         tipControl.selectedSegmentIndex = intValue
         CalculateTip()
+        let theme = ThemeManager.currentTheme()
+        ThemeManager.applyTheme(theme: theme)
+        self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: theme.mainColor]
+        self.billField.textColor = theme.mainColor
         self.tAnimation.alpha = 0
         self.iAnimation.alpha = 0
         self.pAnimation.alpha = 0
