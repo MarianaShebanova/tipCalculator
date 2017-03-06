@@ -4,7 +4,7 @@
 
 Submitted by: **Mariana Shebanova**
 
-Time spent: **6:30** hours spent in total
+Time spent: **9:30** hours spent in total
 
 ## User Stories
 
